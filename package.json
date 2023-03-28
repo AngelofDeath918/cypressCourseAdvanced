@@ -1,0 +1,22 @@
+{
+  "name": "cypressautomationcourse",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristhiam Guerrero",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^15.1.5",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.8.1",
+    "ts-loader": "^9.4.2",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "^5.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
